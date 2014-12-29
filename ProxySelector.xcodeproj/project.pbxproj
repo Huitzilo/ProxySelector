@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8622F7E11A51BB18000DDF68 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8622F7E01A51BB18000DDF68 /* Cocoa.framework */; };
+		8622F7EB1A51BB18000DDF68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8622F7E91A51BB18000DDF68 /* InfoPlist.strings */; };
+		8622F7ED1A51BB18000DDF68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8622F7EC1A51BB18000DDF68 /* main.m */; };
+		8622F7F11A51BB18000DDF68 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8622F7EF1A51BB18000DDF68 /* Credits.rtf */; };
+		8622F7F41A51BB18000DDF68 /* BMLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8622F7F31A51BB18000DDF68 /* BMLAppDelegate.m */; };
+		8622F7F71A51BB18000DDF68 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8622F7F51A51BB18000DDF68 /* MainMenu.xib */; };
+		8622F7F91A51BB18000DDF68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8622F7F81A51BB18000DDF68 /* Images.xcassets */; };
+		8622F8001A51BB18000DDF68 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8622F7FF1A51BB18000DDF68 /* XCTest.framework */; };
+		8622F8011A51BB18000DDF68 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8622F7E01A51BB18000DDF68 /* Cocoa.framework */; };
+		8622F8091A51BB18000DDF68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8622F8071A51BB18000DDF68 /* InfoPlist.strings */; };
+		8622F80B1A51BB18000DDF68 /* ProxySelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8622F80A1A51BB18000DDF68 /* ProxySelectorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8622F8021A51BB18000DDF68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8622F7D51A51BB18000DDF68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8622F7DC1A51BB18000DDF68;
+			remoteInfo = ProxySelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8622F7DD1A51BB18000DDF68 /* ProxySelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxySelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8622F7E01A51BB18000DDF68 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8622F7E31A51BB18000DDF68 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8622F7E41A51BB18000DDF68 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8622F7E51A51BB18000DDF68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8622F7E81A51BB18000DDF68 /* ProxySelector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProxySelector-Info.plist"; sourceTree = "<group>"; };
+		8622F7EA1A51BB18000DDF68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8622F7EC1A51BB18000DDF68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8622F7EE1A51BB18000DDF68 /* ProxySelector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProxySelector-Prefix.pch"; sourceTree = "<group>"; };
+		8622F7F01A51BB18000DDF68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8622F7F21A51BB18000DDF68 /* BMLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMLAppDelegate.h; sourceTree = "<group>"; };
+		8622F7F31A51BB18000DDF68 /* BMLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMLAppDelegate.m; sourceTree = "<group>"; };
+		8622F7F61A51BB18000DDF68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8622F7F81A51BB18000DDF68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8622F7FE1A51BB18000DDF68 /* ProxySelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxySelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8622F7FF1A51BB18000DDF68 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8622F8061A51BB18000DDF68 /* ProxySelectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProxySelectorTests-Info.plist"; sourceTree = "<group>"; };
+		8622F8081A51BB18000DDF68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8622F80A1A51BB18000DDF68 /* ProxySelectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxySelectorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8622F7DA1A51BB18000DDF68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8622F7E11A51BB18000DDF68 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8622F7FB1A51BB18000DDF68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8622F8011A51BB18000DDF68 /* Cocoa.framework in Frameworks */,
+				8622F8001A51BB18000DDF68 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8622F7D41A51BB18000DDF68 = {
+			isa = PBXGroup;
+			children = (
+				8622F7E61A51BB18000DDF68 /* ProxySelector */,
+				8622F8041A51BB18000DDF68 /* ProxySelectorTests */,
+				8622F7DF1A51BB18000DDF68 /* Frameworks */,
+				8622F7DE1A51BB18000DDF68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8622F7DE1A51BB18000DDF68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8622F7DD1A51BB18000DDF68 /* ProxySelector.app */,
+				8622F7FE1A51BB18000DDF68 /* ProxySelectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8622F7DF1A51BB18000DDF68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8622F7E01A51BB18000DDF68 /* Cocoa.framework */,
+				8622F7FF1A51BB18000DDF68 /* XCTest.framework */,
+				8622F7E21A51BB18000DDF68 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8622F7E21A51BB18000DDF68 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8622F7E31A51BB18000DDF68 /* AppKit.framework */,
+				8622F7E41A51BB18000DDF68 /* CoreData.framework */,
+				8622F7E51A51BB18000DDF68 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8622F7E61A51BB18000DDF68 /* ProxySelector */ = {
+			isa = PBXGroup;
+			children = (
+				8622F7F21A51BB18000DDF68 /* BMLAppDelegate.h */,
+				8622F7F31A51BB18000DDF68 /* BMLAppDelegate.m */,
+				8622F7F51A51BB18000DDF68 /* MainMenu.xib */,
+				8622F7F81A51BB18000DDF68 /* Images.xcassets */,
+				8622F7E71A51BB18000DDF68 /* Supporting Files */,
+			);
+			path = ProxySelector;
+			sourceTree = "<group>";
+		};
+		8622F7E71A51BB18000DDF68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8622F7E81A51BB18000DDF68 /* ProxySelector-Info.plist */,
+				8622F7E91A51BB18000DDF68 /* InfoPlist.strings */,
+				8622F7EC1A51BB18000DDF68 /* main.m */,
+				8622F7EE1A51BB18000DDF68 /* ProxySelector-Prefix.pch */,
+				8622F7EF1A51BB18000DDF68 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8622F8041A51BB18000DDF68 /* ProxySelectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8622F80A1A51BB18000DDF68 /* ProxySelectorTests.m */,
+				8622F8051A51BB18000DDF68 /* Supporting Files */,
+			);
+			path = ProxySelectorTests;
+			sourceTree = "<group>";
+		};
+		8622F8051A51BB18000DDF68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8622F8061A51BB18000DDF68 /* ProxySelectorTests-Info.plist */,
+				8622F8071A51BB18000DDF68 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8622F7DC1A51BB18000DDF68 /* ProxySelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8622F80E1A51BB18000DDF68 /* Build configuration list for PBXNativeTarget "ProxySelector" */;
+			buildPhases = (
+				8622F7D91A51BB18000DDF68 /* Sources */,
+				8622F7DA1A51BB18000DDF68 /* Frameworks */,
+				8622F7DB1A51BB18000DDF68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProxySelector;
+			productName = ProxySelector;
+			productReference = 8622F7DD1A51BB18000DDF68 /* ProxySelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8622F7FD1A51BB18000DDF68 /* ProxySelectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8622F8111A51BB18000DDF68 /* Build configuration list for PBXNativeTarget "ProxySelectorTests" */;
+			buildPhases = (
+				8622F7FA1A51BB18000DDF68 /* Sources */,
+				8622F7FB1A51BB18000DDF68 /* Frameworks */,
+				8622F7FC1A51BB18000DDF68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8622F8031A51BB18000DDF68 /* PBXTargetDependency */,
+			);
+			name = ProxySelectorTests;
+			productName = ProxySelectorTests;
+			productReference = 8622F7FE1A51BB18000DDF68 /* ProxySelectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8622F7D51A51BB18000DDF68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BML;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BioMachineLearning;
+				TargetAttributes = {
+					8622F7FD1A51BB18000DDF68 = {
+						TestTargetID = 8622F7DC1A51BB18000DDF68;
+					};
+				};
+			};
+			buildConfigurationList = 8622F7D81A51BB18000DDF68 /* Build configuration list for PBXProject "ProxySelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8622F7D41A51BB18000DDF68;
+			productRefGroup = 8622F7DE1A51BB18000DDF68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8622F7DC1A51BB18000DDF68 /* ProxySelector */,
+				8622F7FD1A51BB18000DDF68 /* ProxySelectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8622F7DB1A51BB18000DDF68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8622F7EB1A51BB18000DDF68 /* InfoPlist.strings in Resources */,
+				8622F7F91A51BB18000DDF68 /* Images.xcassets in Resources */,
+				8622F7F11A51BB18000DDF68 /* Credits.rtf in Resources */,
+				8622F7F71A51BB18000DDF68 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8622F7FC1A51BB18000DDF68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8622F8091A51BB18000DDF68 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8622F7D91A51BB18000DDF68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8622F7F41A51BB18000DDF68 /* BMLAppDelegate.m in Sources */,
+				8622F7ED1A51BB18000DDF68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8622F7FA1A51BB18000DDF68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8622F80B1A51BB18000DDF68 /* ProxySelectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8622F8031A51BB18000DDF68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8622F7DC1A51BB18000DDF68 /* ProxySelector */;
+			targetProxy = 8622F8021A51BB18000DDF68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8622F7E91A51BB18000DDF68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8622F7EA1A51BB18000DDF68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8622F7EF1A51BB18000DDF68 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8622F7F01A51BB18000DDF68 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8622F7F51A51BB18000DDF68 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8622F7F61A51BB18000DDF68 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8622F8071A51BB18000DDF68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8622F8081A51BB18000DDF68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8622F80C1A51BB18000DDF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8622F80D1A51BB18000DDF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8622F80F1A51BB18000DDF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProxySelector/ProxySelector-Prefix.pch";
+				INFOPLIST_FILE = "ProxySelector/ProxySelector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8622F8101A51BB18000DDF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProxySelector/ProxySelector-Prefix.pch";
+				INFOPLIST_FILE = "ProxySelector/ProxySelector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8622F8121A51BB18000DDF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProxySelector.app/Contents/MacOS/ProxySelector";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProxySelector/ProxySelector-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProxySelectorTests/ProxySelectorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8622F8131A51BB18000DDF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProxySelector.app/Contents/MacOS/ProxySelector";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProxySelector/ProxySelector-Prefix.pch";
+				INFOPLIST_FILE = "ProxySelectorTests/ProxySelectorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8622F7D81A51BB18000DDF68 /* Build configuration list for PBXProject "ProxySelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8622F80C1A51BB18000DDF68 /* Debug */,
+				8622F80D1A51BB18000DDF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8622F80E1A51BB18000DDF68 /* Build configuration list for PBXNativeTarget "ProxySelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8622F80F1A51BB18000DDF68 /* Debug */,
+				8622F8101A51BB18000DDF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8622F8111A51BB18000DDF68 /* Build configuration list for PBXNativeTarget "ProxySelectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8622F8121A51BB18000DDF68 /* Debug */,
+				8622F8131A51BB18000DDF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8622F7D51A51BB18000DDF68 /* Project object */;
+}
